@@ -1,0 +1,125 @@
+body {
+    margin: 0 auto;
+    font-family: 'Poppins', sans-serif;
+}
+.main-section {
+    background-image: url("../images/money.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:fit-content;
+}
+
+header {
+    background-color: rgba(3, 16, 39, .4) !important;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav {
+    color: white;
+    margin: 5%;
+}
+
+.row {
+    margin: 5% 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 5%;
+    padding: 5%;
+    width: 100%;
+    text-decoration: none;
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li {
+    text-decoration: none;
+    display: inline;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    margin: 5% 15% 0% 15%;
+}
+
+form {
+    displace: flex;
+    flex-diection: column;
+    justify-content: space-between;
+}
+
+.form a {
+    color: white;
+}
+
+.form-input a {
+    color: white;
+}
+
+.form-group {
+    padding: 3%;
+}
+
+.form-inputs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background:rgba(3, 16, 39);
+}
+
+.inputs {
+    padding: 4%;
+}
+
+.check {
+    display: block !important;
+}
+
+.logo {
+    width: 50%;
+}
+
+.form-submit {
+    margin: 3%;
+}
+
+.submit-button {
+    padding: 3% 10% !important;
+    radius: 10px;
+}
+
+.submit-button:hover {
+    background:rgba(3, 16, 39) !important;
+    color: #fff !important;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.copyright {
+    background-color:rgba(3, 16, 39, .4);
+}
+
+footer a {
+    color:rgb(3, 16, 39);
+}
+
+a:hover {
+    color:rgb(12, 61, 145);
+}
