@@ -49,12 +49,13 @@ nav ul li a {
 main {
     text-align: center;
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     color: #fff;
     margin: 5% 15% 0% 15%;
 }
 
-form {
+.form {
     displace: flex;
     flex-diection: column;
     justify-content: space-between;
