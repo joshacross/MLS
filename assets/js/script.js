@@ -5,7 +5,7 @@
 // var city = document.getElementById('city');
 
 // getMlsData = () => {
-//     let apiUrl = "";
+//     let apiUrl = "https://api.bridgedataoutput.com/api/v2/OData//property?access_token=process.env.SERVER_TOKEN";
 
 //     fetch(apiUrl)
 //     .then(function (response) {
