@@ -8,10 +8,10 @@
 //     let apiUrl = "";
 
 //     fetch(apiUrl)
-//     .then(function (res) {
-//         if (res.ok) {
-//             console.log(res);
-//             return res.json()
+//     .then(function (response) {
+//         if (response.ok) {
+//             console.log(response);
+//             return response.json()
 //         } else {
 //             throw new Error ('hrrmmm something went wrong with your request, please try again');
 //         }
